@@ -1,7 +1,7 @@
 # Discover Instance Spanning Exceptions from process execution logs - Web Service
 The web service enables the discovery of instance spanning exceptions (ISE), i.e. exceptions in processes that span multiple process instances. There are five different classes of ISE, wait, cancel, redo, change and rework. This web service allows to discover these ISE based on procss event logs. The implementation is based on the algorithms developed in [Link](https://doi.org/10.1109/CBI54897.2022.10048) as well as the visualizations and process performance indicators for ISE developed in my bachelor thesis. 
 
-## Usage:
+## Usage
 
  There are two ways to use the web service:
 
