@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - ISE Web Service</title>
+
+    <link href="../static/stylesheets/indexStyleSheet.css" th:href="@{stylesheets/indexStyleSheet.css}" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <div class="headerLogo">
+            <span>ISE Web Service</span>
+        </div>
+        <div class="headerMenu">
+            <ul>
+                <li><a id="activeMenu" href="#">Home</a></li>
+                <li><a href="upload">Upload</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="textContainer">
+        <h1>Discover Instance Spanning Exceptions</h1>
+        <p>This web service enables the discovery of instance spanning exceptions (ISE) based on process event logs.
+            ISEs are exceptions that can span multiple process instances of both its own and other processes.
+            There are five different classes of ISEs: Wait, Cancel, Redo, Change and Rework. Further details can be
+            found in the following paper (<a href="https://doi.org/10.1109/CBI54897.2022.10048">Link</a>).
+            In addition, the implementation of the web service can be found in the following GitHub Repository
+            (<a href="https://github.com/HendrikKipp/Discover-Instance-Spanning-Exceptions-from-process-execution-logs-Web-Service">Link</a>).</p>
+
+        <p>To use the web service, the process event logs to be examined must first be uploaded in ".xes" format and
+            a few calculation parameters selected. Afterward, the discovered ISEs are displayed together with appropriate
+            Process Performance Indicators (PPI).</p>
+        <a href="upload">
+            <button id="discoverIseButton">Discover ISE</button>
+        </a>
+    </div>
+    <div id="imageContainer">
+        <img th:src="@{images/ISE_index_process.png}" src="../static/images/ISE_index_process.png" alt=""/>
+    </div>
+</body>
+</html>

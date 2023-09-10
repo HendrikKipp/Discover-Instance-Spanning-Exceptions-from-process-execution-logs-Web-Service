@@ -11,5 +11,25 @@ The web service enables the discovery of instance spanning exceptions (ISE), i.e
    ```java -jar ISEWebService-0.0.0.1.jar```
   Afterwards, the web service can be called via localhost:8011. Please note that Java Verison 17 is required to run this command.
 
+## Test data
+To test the web service, XES test data is provided for all five classes of ISE (Wait, Cancel, Redo, Change, and Rework). 
+These can be found in ```test/resources/logs```. The following parameters should be used for the classes
+
+### Wait-Class
+* merge-attribute: harbour
+* wait-threshold: 1
+
+### Cancel-Class:
+* merge-attribute: missingPerson
+
+### Redo class
+* merge-attribute: song
+
+### Change-Class
+* merge-attribute: originalPrinter
+
+### Rework-Class
+* merge-attribute: company
+
 ## Technologies
 The project is based on the Spring Boot Application Framework and uses several additional libraries and dependencies

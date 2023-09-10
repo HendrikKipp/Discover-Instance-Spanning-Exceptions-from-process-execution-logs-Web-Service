@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7" xmlns="http://www.xes-standard.org/">
+	<trace>
+		<string key="missingPerson" value="Mike"/>
+		<event>
+			<date key="time:timestamp" value="2018-03-15T10:00:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Drive into search area"/>
+			<string key="org:resource" value="Mike"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-03-15T10:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Drive into search area"/>
+			<string key="org:resource" value="Mike"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-03-15T10:35:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Search for missing person"/>
+			<string key="org:resource" value="Mike"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-03-15T11:02:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Search for missing person"/>
+			<string key="org:resource" value="Mike"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-03-15T11:07:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Drive back to station"/>
+			<string key="org:resource" value="Mike"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-03-15T11:37:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Drive back to station"/>
+			<string key="org:resource" value="Mike"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="missingPerson" value="Hannah"/>
+		<event>
+			<date key="time:timestamp" value="2018-03-30T11:00:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Drive into search area"/>
+			<string key="org:resource" value="Hannah"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-03-30T11:30:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Drive into search area"/>
+			<string key="org:resource" value="Hannah"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-03-30T11:35:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Search for missing person"/>
+			<string key="org:resource" value="Hannah"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-03-30T12:05:00+02:00"/>
+			<string key="lifecycle:transition" value="pi_abort"/>
+			<string key="concept:name" value="Search for missing person"/>
+			<string key="org:resource" value="Hannah"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-03-30T12:10:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Drive back to station"/>
+			<string key="org:resource" value="Hannah"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-03-30T12:40:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Drive back to station"/>
+			<string key="org:resource" value="Hannah"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="missingPerson" value="Patrick"/>
+		<event>
+			<date key="time:timestamp" value="2018-04-14T11:00:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Drive into search area"/>
+			<string key="org:resource" value="Patrick"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-04-14T11:30:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Drive into search area"/>
+			<string key="org:resource" value="Patrick"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-04-14T11:35:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Search for missing person"/>
+			<string key="org:resource" value="Patrick"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-04-14T12:05:00+02:00"/>
+			<string key="lifecycle:transition" value="pi_abort"/>
+			<string key="concept:name" value="Search for missing person"/>
+			<string key="org:resource" value="Patrick"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-04-14T12:10:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Drive back to station"/>
+			<string key="org:resource" value="Patrick"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-04-14T12:40:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Drive back to station"/>
+			<string key="org:resource" value="Patrick"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="missingPerson" value="John"/>
+		<event>
+			<date key="time:timestamp" value="2018-04-29T11:00:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Drive into search area"/>
+			<string key="org:resource" value="John"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-04-29T11:30:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Drive into search area"/>
+			<string key="org:resource" value="John"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-04-29T11:35:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Search for missing person"/>
+			<string key="org:resource" value="John"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-04-29T12:05:00+02:00"/>
+			<string key="lifecycle:transition" value="pi_abort"/>
+			<string key="concept:name" value="Search for missing person"/>
+			<string key="org:resource" value="John"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-04-29T12:10:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Drive back to station"/>
+			<string key="org:resource" value="John"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-04-29T12:40:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Drive back to station"/>
+			<string key="org:resource" value="John"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="missingPerson" value="Jimmy"/>
+		<event>
+			<date key="time:timestamp" value="2018-05-14T11:00:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Drive into search area"/>
+			<string key="org:resource" value="Jimmy"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-05-14T11:30:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Drive into search area"/>
+			<string key="org:resource" value="Jimmy"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-05-14T11:35:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Search for missing person"/>
+			<string key="org:resource" value="Jimmy"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-05-14T12:05:00+02:00"/>
+			<string key="lifecycle:transition" value="pi_abort"/>
+			<string key="concept:name" value="Search for missing person"/>
+			<string key="org:resource" value="Jimmy"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-05-14T12:10:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Drive back to station"/>
+			<string key="org:resource" value="Jimmy"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-05-14T12:40:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Drive back to station"/>
+			<string key="org:resource" value="Jimmy"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="missingPerson" value="Sarah"/>
+		<event>
+			<date key="time:timestamp" value="2018-05-29T11:00:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Drive into search area"/>
+			<string key="org:resource" value="Sarah"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-05-29T11:30:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Drive into search area"/>
+			<string key="org:resource" value="Sarah"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-05-29T11:35:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Search for missing person"/>
+			<string key="org:resource" value="Sarah"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-05-29T12:05:00+02:00"/>
+			<string key="lifecycle:transition" value="pi_abort"/>
+			<string key="concept:name" value="Search for missing person"/>
+			<string key="org:resource" value="Sarah"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-05-29T12:10:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Drive back to station"/>
+			<string key="org:resource" value="Sarah"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-05-29T12:40:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Drive back to station"/>
+			<string key="org:resource" value="Sarah"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="missingPerson" value="Sandra"/>
+		<event>
+			<date key="time:timestamp" value="2018-06-13T11:00:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Drive into search area"/>
+			<string key="org:resource" value="Sandra"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-06-13T11:30:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Drive into search area"/>
+			<string key="org:resource" value="Sandra"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-06-13T11:35:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Search for missing person"/>
+			<string key="org:resource" value="Sandra"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-06-13T12:05:00+02:00"/>
+			<string key="lifecycle:transition" value="pi_abort"/>
+			<string key="concept:name" value="Search for missing person"/>
+			<string key="org:resource" value="Sandra"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-06-13T12:10:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Drive back to station"/>
+			<string key="org:resource" value="Sandra"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2018-06-13T12:40:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Drive back to station"/>
+			<string key="org:resource" value="Sandra"/>
+		</event>
+	</trace>
+</log>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload - ISE Web Service</title>
+    <link href="../static/stylesheets/uploadStylesheet.css" th:href="@{stylesheets/uploadStylesheet.css}" rel="stylesheet"/>
+</head>
+<body id="body">
+    <header>
+        <div class="headerLogo">
+            <span>ISE Web Service</span>
+        </div>
+        <div class="headerMenu">
+            <ul>
+                <li><a href="./">Home</a></li>
+                <li><a id="activeMenu" href="#">Upload</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <form method="POST" enctype="multipart/form-data" action="" class="formContainer">
+        <div class="progressBarContainer">
+            <div class="progressBarItems">
+                <span class="progressBarNumber">1</span>
+                <span class="progressBarText">Upload XES-Files</span>
+            </div>
+            <div class="progressBarLine"></div>
+            <div class="progressBarItems">
+                <span class="progressBarNumber">2</span>
+                <span class="progressBarText">Choose ISE-Algorithms</span>
+            </div>
+            <div class="progressBarLine"></div>
+            <div class="progressBarItems">
+                <span class="progressBarNumber">3</span>
+                <span class="progressBarText">Set Parameter</span>
+            </div>
+            <div class="progressBarLine"></div>
+            <div class="progressBarItems">
+                <span class="progressBarNumber">4</span>
+                <span class="progressBarText">Confirm & Upload</span>
+            </div>
+        </div>
+        <div class="pageContainer">
+            <div class="page">
+                <div class="pageItemTop">
+                    <div class="pageItemTopHeader">
+                        <h2>Upload XES-Files</h2>
+                    </div>
+                    <div class="pageItemTopUpload">
+                        <div id="uploadFilesContainer">
+                            <div id="uploadFiles">
+                                <label for="xesUploadFile" id="uploadLabel">
+                                    <img src="../static/images/upload.png" th:src="@{images/upload.png}"/>
+                                    <p>Upload Files</p>
+                                    <p id="uploadedFileNames">...</p>
+                                </label>
+                                <input type="file" accept=".xes" name="files" id="xesUploadFile" oninput="fileUploaded()" multiple/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pageItemBottom">
+                    <a href="/">
+                        <button type="button" class="previousButton">Home</button>
+                    </a>
+                    <button type="button" class="nextButton" id="nextButton1" onclick="showPage(1, 2)" disabled>Next</button>
+                </div>
+            </div>
+
+            <div class="page">
+                <div class="pageItemTop">
+                    <div class="pageItemTopHeader">
+                        <h2>Choose ISE-Algorithm</h2>
+                    </div>
+                    <div class="pageItemTopAlgorithms">
+                        <div id="checkboxOuterContainer">
+                            <div class="checkboxContainer">
+                                <input type="checkbox" id="algorithmWait" name="algorithmWait" checked>
+                                <label for="algorithmWait">Wait Discovery Algorithm</label>
+                            </div>
+
+                            <div class="checkboxContainer">
+                                <input type="checkbox" id="algorithmCancel" name="algorithmCancel" checked>
+                                <label for="algorithmCancel">Cancel Discovery Algorithm</label>
+                            </div>
+
+                            <div class="checkboxContainer">
+                                <input type="checkbox" id="algorithmRedo" name="algorithmRedo" checked>
+                                <label for="algorithmRedo">Redo Discovery Algorithm</label>
+                            </div>
+
+                            <div class="checkboxContainer">
+                                <input type="checkbox" id="algorithmChange" name="algorithmChange" checked>
+                                <label for="algorithmChange">Change Discovery Algorithm</label>
+                            </div>
+
+                            <div class="checkboxContainer">
+                                <input type="checkbox" id="algorithmRework" name="algorithmRework" checked>
+                                <label for="algorithmRework">Rework Discovery Algorithm</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pageItemBottom">
+                    <button type="button" class="previousButton" onclick="showPage(2, 1)">Previous</button>
+                    <button type="button" class="nextButton" onclick="showPage(2, 3)">Next</button>
+                </div>
+            </div>
+
+            <div class="page">
+                <div class="pageItemTop">
+                    <div class="pageItemTopHeader">
+                        <h2>Set Parameter</h2>
+                    </div>
+                    <div class="pageItemTopParameter">
+                        <p>In order to apply the algorithms, a merge attribute must be specified to recognize related
+                            process instances. This merge attribute must be present as an attribute on trace level
+                            in the xes event logs files. In addition, a threshold must be specified for the wait algorithm.</p>
+                        <div class="parameterContainer">
+                            <label for="mergeAttributeInput">Merge Attribute</label>
+                            <input type="text" id="mergeAttributeInput" name="mergeAttribute" oninput="validateMergeAttribute(this)" required/>
+                        </div>
+                        <div class="parameterContainer">
+                            <label for="waitParameter">Threshold for Wait Discovery Algorithm</label>
+                            <input type="text" id="waitParameter" name="waitParameter" oninput="validateWaitThresholdOngoing(this)" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="pageItemBottom">
+                    <button type="button" class="previousButton" onclick="showPage(3, 2)">Previous</button>
+                    <button type="button" class="nextButton" id="nextButton3" onclick="showPage(3, 4)" disabled>Next</button>
+                </div>
+            </div>
+
+            <div class="page">
+                <div class="pageItemTop">
+                    <div class="pageItemTopHeader">
+                        <h2>Submit & Upload</h2>
+                    </div>
+                    <div class="pageItemTopSubmit">
+                        <p>The files you upload and entries you make will be processed, stored and made publicly
+                        available by this web service. Therefore, please do not upload any sensitive data.</p>
+                        <div>
+                            <input type="checkbox" id="uplaodCheckbox" onclick="activateUploadButton(this)"/>
+                            <label for="uplaodCheckbox">I hereby confirm that I have read and accepted the instructions
+                                for the processing and publication of my data.</label>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="pageItemBottom">
+                    <button type="button" class="previousButton" onclick="showPage(4, 3)">Previous</button>
+                    <button type="submit" value="Upload" class="uploadButton" disabled>Upload</button>
+                </div>
+            </div>
+
+        </div>
+
+    </form>
+    <script src="../static/scripts/uploadScript.js" th:src="@{scripts/uploadScript.js}"></script>
+</body>
+</html>

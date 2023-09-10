@@ -1,0 +1,101 @@
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    display: inline-flex;
+    width: 60%;
+    justify-content: center;
+    align-items: flex-start;
+    height: 80vh;
+    margin: 0;
+    padding-top: 20vh;
+    background-color: #F9FAFB;
+}
+
+/* Header with menu bar */
+header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 2px black;
+    height: 8%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    z-index: 1000;
+}
+
+.headerLogo{
+    width: 40%;
+    padding-left: 10%;
+}
+
+.headerLogo span{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+.headerMenu{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 60%;
+    padding-right: 10%;
+}
+
+.headerMenu ul{
+    display: flex;
+    gap: 15%;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+header ul li{
+    list-style-type: none;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+header ul li a:hover{
+    color: #BFAE5A;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Page Content */
+#textContainer{
+    padding-right: 3em;
+    width: 50%;
+    text-align: justify;
+}
+
+#textContainer div{
+    margin-bottom: 50px;
+}
+
+#discoverIseButton{
+    background-color: #2C93C0;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px 40px;
+    font-weight: bold;
+}
+
+#discoverIseButton:hover{
+    background-color: #017ABF;
+    font-weight: bold;
+}

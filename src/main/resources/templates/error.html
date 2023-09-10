@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Error - ISE Web Service</title>
+
+    <link href="../static/stylesheets/errorStylesheet.css" th:href="@{stylesheets/errorStylesheet.css}" rel="stylesheet"/>
+</head>
+<body>
+<header>
+    <div class="headerLogo">
+        <span>ISE Web Service</span>
+    </div>
+    <div class="headerMenu">
+        <ul>
+            <li><a href="./">Home</a></li>
+            <li><a href="upload">Upload</a></li>
+        </ul>
+    </div>
+</header>
+<div id="textContainer">
+    <h1>Error Page</h1>
+    <h2>Ooooooops!</h2>
+    <p>An error occurred with the following message:</p>
+    <div th:text="${errorMessage}"></div>
+    <a href="./">
+        <button id="discoverIseButton">Home</button>
+    </a>
+</div>
+</body>
+</html>

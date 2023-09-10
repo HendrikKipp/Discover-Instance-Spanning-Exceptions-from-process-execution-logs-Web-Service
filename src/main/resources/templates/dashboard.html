@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - ISE Web Service</title>
+
+    <link href="../static/stylesheets/dashboardStylesheet.css" th:href="@{stylesheets/dashboardStylesheet.css}" rel="stylesheet"/>
+
+    <!-- BPMN-Viewer -->
+    <script src="https://unpkg.com/bpmn-js@13.2.2/dist/bpmn-navigated-viewer.development.js"></script>
+    <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
+</head>
+<body>
+    <header>
+        <div class="headerLogo">
+            <span>ISE Web Service</span>
+        </div>
+        <div class="headerMenu">
+            <ul>
+                <li><a href="./">Home</a></li>
+                <li><a href="upload">Upload</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Header Container -->
+    <div id="headerContainer">
+        <h1>Instance Spanning Exceptions - Dashboard</h1>
+    </div>
+
+    <!-- General Process Performance Indicator Container -->
+    <div class="container" id="processTabContainer">
+        <div class="containerTitle">
+            <h2>General Process Performance Indicators</h2>
+        </div>
+
+        <div class="scrollContainerTabsAndLines">
+            <div class="containerTabs">
+                <button class="containerTabsButton" th:each="processTab : ${dashboardView.processTab}" th:text="${processTab.processName}" onclick="changeProcessTab(this)"></button>
+            </div>
+
+            <div class="containerLines">
+                <div class="containerLinesDiv" th:each="processTab : ${dashboardView.processTab}"></div>
+            </div>
+        </div>
+
+        <!-- Tabs -->
+        <div th:each="processTab : ${dashboardView.processTab}" class="containerTabContent">
+            <div class="ppiContainer">
+                <div class="ppi" th:each="ppi : ${processTab.ppiValues}">
+                    <span class="ppiNumber" th:text="${ppi[0]}"></span>
+                    <span class="ppiOverviewDescription" th:text="${ppi[1]}"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ISE Result Container -->
+    <div class="container" id="iseTabContainer">
+        <div class="containerTitle">
+            <h2>Instance Spanning Exception Results</h2>
+        </div>
+
+        <!-- Header with Algorithm-Tabs -->
+        <div class="scrollContainerTabsAndLines">
+            <div class="containerTabs">
+                <button class="containerTabsButton" th:each="iseTab : ${dashboardView.iseTab}" th:text="${iseTab.iseType}" onclick="changeISETab(this)"></button>
+            </div>
+
+            <div class="containerLines">
+                <div class="containerLinesDiv" th:each="iseTab : ${dashboardView.iseTab}"></div>
+            </div>
+        </div>
+
+        <!-- Classes -->
+        <div th:each="iseTab : ${dashboardView.iseTab}" class="containerTabContent">
+            <!-- PPIs of the ISEs -->
+            <div class="ppiContainer" th:unless="${iseTab.isRequestedButNotApplied}">
+                <div class="ppi" th:each="ppi : ${iseTab.ppiValues}">
+                    <span class="ppiNumber" th:text="${ppi[0]}"></span>
+                    <span class="ppiOverviewDescription" th:text="${ppi[1]}"></span>
+                </div>
+            </div>
+
+            <!-- Visualizations of the ISEs -->
+            <div class="visualizationISEContainer" th:unless="${iseTab.isRequestedButNotApplied}">
+                <!-- ISEs -->
+                <div th:each="ise, number : ${iseTab.iseList}" class="visualizationISE">
+                    <div class="visualizationISEHeader" onclick="changeVisibilityISE(this)">
+                        <img class="visualizationISEImage" src="../static/images/collapse_down.svg" th:src="@{images/collapse_down.svg}" onclick="expandISEVisualization(0)"/>
+                        <span>ISE-</span><span th:text="${number.index + 1}"></span>
+                    </div>
+                    <div class="ppiContainer">
+                        <div class="ppi" th:each="ppi : ${ise.ppiValues}">
+                            <span class="ppiNumber" th:text="${ppi[0]}"></span>
+                            <span class="ppiOverviewDescription" th:text="${ppi[1]}"></span>
+                        </div>
+                    </div>
+                    <div class="visualizationISEModel" th:id="'canvas-' + ${ise.modelId}">
+                        <div class="zoom">
+                            <button onclick="zoomFitViewport(this)">&#x2A01;</button>
+                            <button onclick="zoomInModel(this)">+</button>
+                            <button onclick="zoomOutModel(this)">-</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- In Case no results can be shown -->
+            <div class="iseNotFound" th:if="${iseTab.isRequestedButNotApplied}">
+                <span>No ISEs could be found for this ISE class. This can occur if the event logs do not meet the requirements for event logs or simply no ISEs can be found in the event logs.</span>
+            </div>
+        </div>
+    </div>
+    <script src="../static/scripts/dashboard.js" th:src="@{scripts/dashboard.js}"></script>
+</body>
+</html>

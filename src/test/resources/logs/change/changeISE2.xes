@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7" xmlns="http://www.xes-standard.org/">
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T09:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T09:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T10:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T10:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T09:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T09:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T10:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T11:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T09:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T10:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T11:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T11:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T10:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T10:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T11:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T11:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T10:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T10:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T11:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T12:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T10:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T11:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T12:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T12:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T11:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T11:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T12:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T12:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T11:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T11:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T12:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T13:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T11:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T12:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T13:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T13:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T12:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T12:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T13:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T13:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T12:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T12:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T13:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T14:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T12:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T13:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T14:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T14:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T13:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T13:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T14:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T14:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T13:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T13:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T14:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T15:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T13:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T14:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T15:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T15:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T14:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T14:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T15:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T15:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T14:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T14:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T15:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T16:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T14:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T15:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T16:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T16:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T15:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T15:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T16:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T16:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T15:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T15:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T16:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T17:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T15:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T16:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T17:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T17:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T16:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T16:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T17:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T17:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T16:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T16:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T17:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T18:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T16:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T17:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T18:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T18:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer1"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T17:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T17:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T18:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T18:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer1"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T17:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T17:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T18:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T19:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T17:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T18:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T19:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T19:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T18:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T18:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T19:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T19:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T18:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T18:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T19:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T20:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T18:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T19:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T20:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T20:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T19:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T19:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T20:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T20:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T19:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T19:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T20:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T21:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T19:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T20:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T21:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T21:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T20:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T20:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T21:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T21:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T20:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T20:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T21:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T22:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T20:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T21:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T22:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T22:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T21:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T21:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T22:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T22:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T21:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T21:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T22:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T23:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T21:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T22:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T23:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T23:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T22:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T22:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T23:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T23:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T22:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T22:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T23:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T00:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T22:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T23:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T00:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T00:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T23:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T23:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T00:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T00:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T23:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T23:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T00:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T01:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-10T23:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T00:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T01:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T01:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T00:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T00:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T01:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T01:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T00:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T00:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T01:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T02:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T00:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T01:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T02:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T02:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T01:10:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T01:30:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T02:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer5"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T02:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer5"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="originalPrinter" value="printer2"/>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T01:30:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T01:50:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare document for scanning"/>
+			<string key="org:resource" value="printer2"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T02:50:00+01:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer5"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2023-02-11T03:10:00+01:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Scan document"/>
+			<string key="org:resource" value="printer5"/>
+		</event>
+	</trace>
+</log>

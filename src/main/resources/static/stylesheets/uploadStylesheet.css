@@ -1,0 +1,343 @@
+/* General */
+html{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+body{
+    width: 1000px;
+    padding-top: 15vh;
+    font-family: Inter;
+    background-color: #F9FAFB;
+}
+
+/* Header with menu bar */
+header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 2px black;
+    height: 8%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    z-index: 1000;
+}
+
+.headerLogo{
+    width: 40%;
+    padding-left: 10%;
+}
+
+.headerLogo span{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+.headerMenu{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 60%;
+    padding-right: 10%;
+}
+
+.headerMenu ul{
+    display: flex;
+    gap: 15%;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+header ul li{
+    list-style-type: none;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+header ul li a:hover{
+    color: #BFAE5A;
+}
+
+#activeMenu{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Start Content */
+.formContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+/* Progress Bar */
+.progressBarContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.progressBarItems{
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 15%;
+    padding: 5px;
+}
+
+.progressBarLine{
+    flex-basis: 20%;
+    height: 3px;
+    background-color: black;
+}
+
+.progressBarNumber{
+    display: flex;
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    color: white;
+}
+.progressBarText{
+    margin-top: 5px;
+    color: black;
+    text-align: center;
+    height: 2em;
+}
+
+/* Content Box */
+/* General */
+.pageContainer{
+    width: 100%;
+    border: 2px solid lightgray;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.page{
+    display: none;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/* Content */
+.pageItemTop{
+    display: flex;
+    flex-basis: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 270px;
+}
+
+.pageItemTopHeader{
+    height: 5em;
+    font-family: sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pageItemTopUpload, .pageItemTopAlgorithms, .pageItemTopParameter, .pageItemTopSubmit{
+    display: flex;
+    flex-basis: 100%;
+    height: 100px;
+    width: 100%;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: wrap;
+    align-content: flex-start;
+}
+
+/* Page: Upload XES-Files */
+#uploadFilesContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 170px;
+    padding: 15px;
+}
+
+#uploadFiles{
+    width: 70%;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    align-content: center;
+    border: 2px dashed black;
+}
+
+#uploadLabel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    flex-flow: column;
+}
+
+#uploadLabel img{
+    width: 20px;
+}
+
+#uploadLabel p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#xesUploadFile{
+    display: none;
+}
+
+/* Page Choose ISE-Algorithms */
+.pageItemTopAlgorithms{
+    flex-flow: column;
+    align-items: center;
+}
+
+.checkboxContainer{
+    margin: 10px 0px 10px 0px;
+}
+
+/* Page Set Parameter */
+.pageItemTopParameter{
+    flex-flow: column;
+    align-items: center;
+}
+
+.pageItemTopParameter p{
+    width: 70%;
+    text-align: center;
+    line-height: 1.4em;
+    margin-bottom: 50px;
+}
+
+/* Page Set Parameter */
+.parameterContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.parameterContainer label{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.parameterContainer input{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+/* Page: Confirm & Upload */
+.pageItemTopSubmit p{
+    margin-bottom: 50px;
+    width: 70%;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+/* Footer */
+.pageItemBottom{
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nextButton{
+    background-color: #2C93C0;
+    border: none;
+    height: 40px;
+    width: 70px;
+    margin-left: auto;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.nextButton:disabled{
+    background-color: lightgray;
+}
+
+.nextButton:disabled:hover{
+    background-color: lightgray;
+    font-weight: normal;
+}
+
+.nextButton:hover{
+    background-color: #017ABF;
+    font-weight: bold;
+}
+
+.previousButton{
+    background-color: #2C93C0;
+    border: none;
+    height: 40px;
+    width: 70px;
+    margin-right: auto;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.previousButton:hover{
+    background-color: #017ABF;
+    font-weight: bold;
+}
+
+.uploadButton{
+    background-color: #2C93C0;
+    border: none;
+    height: 40px;
+    width: 70px;
+    margin-left: auto;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.uploadButton:disabled{
+    background-color: lightgray;
+}
+
+.uploadButton:disabled:hover{
+    background-color: lightgray;
+    font-weight: normal;
+}
+
+.uploadButton:hover{
+    background-color: #017ABF;
+    font-weight: bold;
+}

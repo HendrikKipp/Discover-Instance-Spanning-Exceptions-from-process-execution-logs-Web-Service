@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7" xmlns="http://www.xes-standard.org/">
+	<trace>
+		<string key="song" value="ShapeOfYou"/>
+		<event>
+			<date key="time:timestamp" value="2022-04-15T11:35:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare instrument"/>
+			<string key="org:resource" value="ShapeOfYou"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-15T12:35:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare instrument"/>
+			<string key="org:resource" value="ShapeOfYou"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-15T12:45:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="ShapeOfYou"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-15T13:45:00+02:00"/>
+			<string key="lifecycle:transition" value="Completed.Failed"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="ShapeOfYou"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-15T13:55:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="ShapeOfYou"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-15T14:55:00+02:00"/>
+			<string key="lifecycle:transition" value="Completed.Success"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="ShapeOfYou"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-15T15:05:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="ShapeOfYou"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-15T16:05:00+02:00"/>
+			<string key="lifecycle:transition" value="Completed.Failed"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="ShapeOfYou"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-15T16:15:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="ShapeOfYou"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-15T17:15:00+02:00"/>
+			<string key="lifecycle:transition" value="Completed.Failed"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="ShapeOfYou"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-15T17:25:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="ShapeOfYou"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-15T18:25:00+02:00"/>
+			<string key="lifecycle:transition" value="Completed.Success"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="ShapeOfYou"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-15T18:35:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Dismantle instrument"/>
+			<string key="org:resource" value="ShapeOfYou"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-15T19:35:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Dismantle instrument"/>
+			<string key="org:resource" value="ShapeOfYou"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="song" value="SeeYouAgain"/>
+		<event>
+			<date key="time:timestamp" value="2022-04-17T11:35:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare instrument"/>
+			<string key="org:resource" value="SeeYouAgain"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-17T12:35:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare instrument"/>
+			<string key="org:resource" value="SeeYouAgain"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-17T12:45:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="SeeYouAgain"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-17T13:45:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="SeeYouAgain"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-17T13:55:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Dismantle instrument"/>
+			<string key="org:resource" value="SeeYouAgain"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-17T14:55:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Dismantle instrument"/>
+			<string key="org:resource" value="SeeYouAgain"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="song" value="Sugar"/>
+		<event>
+			<date key="time:timestamp" value="2022-04-19T11:35:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare instrument"/>
+			<string key="org:resource" value="Sugar"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-19T12:35:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare instrument"/>
+			<string key="org:resource" value="Sugar"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-19T12:45:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="Sugar"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-19T13:45:00+02:00"/>
+			<string key="lifecycle:transition" value="Completed.Failed"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="Sugar"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-19T13:55:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="Sugar"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-19T14:55:00+02:00"/>
+			<string key="lifecycle:transition" value="Completed.Failed"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="Sugar"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-19T15:05:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="Sugar"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-19T16:05:00+02:00"/>
+			<string key="lifecycle:transition" value="Completed.Success"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="Sugar"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-19T16:15:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Dismantle instrument"/>
+			<string key="org:resource" value="Sugar"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-19T17:15:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Dismantle instrument"/>
+			<string key="org:resource" value="Sugar"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="song" value="Sugar"/>
+		<event>
+			<date key="time:timestamp" value="2022-04-21T11:35:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare instrument"/>
+			<string key="org:resource" value="Sugar"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-21T12:35:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare instrument"/>
+			<string key="org:resource" value="Sugar"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-21T12:45:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="Sugar"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-21T13:45:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="Sugar"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-21T13:55:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Dismantle instrument"/>
+			<string key="org:resource" value="Sugar"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-21T14:55:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Dismantle instrument"/>
+			<string key="org:resource" value="Sugar"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="song" value="CountingStars"/>
+		<event>
+			<date key="time:timestamp" value="2022-04-23T11:35:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare instrument"/>
+			<string key="org:resource" value="CountingStars"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-23T12:35:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare instrument"/>
+			<string key="org:resource" value="CountingStars"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-23T12:45:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="CountingStars"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-23T13:45:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="CountingStars"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-23T13:55:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Dismantle instrument"/>
+			<string key="org:resource" value="CountingStars"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-23T14:55:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Dismantle instrument"/>
+			<string key="org:resource" value="CountingStars"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="song" value="Sunflower"/>
+		<event>
+			<date key="time:timestamp" value="2022-04-25T11:35:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Prepare instrument"/>
+			<string key="org:resource" value="Sunflower"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-25T12:35:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Prepare instrument"/>
+			<string key="org:resource" value="Sunflower"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-25T12:45:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="Sunflower"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-25T13:45:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Produce song"/>
+			<string key="org:resource" value="Sunflower"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-25T13:55:00+02:00"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="concept:name" value="Dismantle instrument"/>
+			<string key="org:resource" value="Sunflower"/>
+		</event>
+		<event>
+			<date key="time:timestamp" value="2022-04-25T14:55:00+02:00"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="concept:name" value="Dismantle instrument"/>
+			<string key="org:resource" value="Sunflower"/>
+		</event>
+	</trace>
+</log>
