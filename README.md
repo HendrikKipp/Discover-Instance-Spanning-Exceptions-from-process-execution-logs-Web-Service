@@ -8,7 +8,7 @@ The web service enables the discovery of instance spanning exceptions (ISE), i.e
 1) The web service is accessible via the link https://csl.bpm.in.tum.de/ise-web-service
 
 2) The web service can be used locally. For this purpose, the JAR file provided in this project should be started with the following command:
-   ```java -jar ISEWebService-0.0.0.1.jar```
+   ```java -jar ISEWebService-0.0.1.jar```
   Afterwards, the web service can be called via localhost:8011. Please note that Java Verison 17 is required to run this command.
 
 ## Test data
